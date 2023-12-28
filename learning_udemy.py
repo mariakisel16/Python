@@ -1,5 +1,5 @@
 
-from math import ceil
+
 # Input a Python list of student heights
 print("Input student's heights")
 student_heights = input().split()
@@ -13,4 +13,5 @@ for i in range(len(student_heights)):
   sum_list += student_heights[i]
 average_height = sum_list/len(student_heights)
 print(student_heights)
-print(ceil(average_height))
+print(f"total height =", sum_list)
+print(round(average_height))
