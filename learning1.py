@@ -2,6 +2,7 @@ import random
 print("Welcome to the guessing game!")
 word_list = ["aardvark", "baboon", "camel"]
 chosen_word = random.choice(word_list)
+
 print(f'Pssst, the solution is {chosen_word}.')
 print("You have 6 attempts to choose the word")
 attempt = 6
